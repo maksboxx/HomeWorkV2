@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF2CC;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #DFA67B;
+}
+
+h1:hover {
+    background-color: #FFD966;
+}
+
+.card {
+    padding:40px 0;
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.month {
+    color: #474416;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px;
+    width: 240px;
+    height: 240px;
+    background-color: #F4B183;
+    box-shadow: 1px -1px 5px 3px rgba(255, 217, 102, 0.67);
+    transition: 1s;
+}
+
+.month:hover {
+    transform: scale(1.05);
+    box-shadow: 0 -1px 49px 8px rgba(223, 166, 123, 0.67);
+    text-shadow: 1px 5px 0 rgba(223, 166, 123, 0.68);
+    border-radius: 15px;
+    transition: 1s;
+}
+
