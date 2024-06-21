@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F1F8E8;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+
+}
+.block{
+    height: 100px;
+    width: 100px;
+    background-color: #95D2B3;
+    transition: 0.5s;
+}
+.block:hover{
+    background-color: #55AD9B;
+    border-radius: 50%;
+    transition: 0.5s;
+}
