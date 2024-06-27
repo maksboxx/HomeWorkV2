@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.active {
+    color: #8888c1;
+}
+
+/*-----HEADER-----*/
+header {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+nav {
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+/*----------------HOME PAGE-----------------------------*/
+.homeP {
+    font-family: "Space Grotesk", sans-serif;
+    height: 90vh;
+    background-image: url("img/bcg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    gap: 5vh;
+    padding-top: 10%;
+}
+
+.homeP h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.homeP h2:hover {
+    transition: 1s;
+    scale: 1.15;
+}
+
+.homeP p {
+    box-shadow: 0 0 46px -12px rgba(186, 186, 186, 0.39) inset;
+    background: rgba(255, 255, 255, 0.76);
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.homeP p:hover {
+    transition: 1s;
+    scale: 1.15;
+}
+
+/*--------------------CONTACT PAGE--------------------*/
+.contact{
+    font-family: "Space Grotesk", sans-serif;
+    height: 90vh;
+    background-image: url("img/contactbg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40%;
+}
+address{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 50vh;
+    width: 20vw;
+    border-radius: 30px;
+}
+/*--------------LEFT INFO-------------------*/
+.leftMenu{
+    font-style: normal;
+    font-family: "Space Grotesk", sans-serif;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #f4f3f3;
+}
+address p{
+    margin: 20px 0;
+}
+address h3{
+    text-transform: uppercase ;
+}
+/*----------RIGHT MENU---------------*/
+.rightMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialMedia{
+    height: 90%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: self-start;
+    font-style: normal;
+    transition: 1s;
+}
+.socialMedia img {
+    width: 3.5vw;
+    height: 3.5vw;
+    margin-right: 20px;
+}
+.socialMedia a{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.socialMedia li{
+    transition: 1.5s;
+}
+.socialMedia li:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+/*--------------BLOG HTML-----------------*/
+.blog{
+    display: flex;
+    height: 50vh;
+    background-color: black;
+    justify-content: space-between;
+}
+.blogInfoTop{
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    padding: 2vw;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blogInfoTop h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.blogImgTop{
+    height: 100%;
+    width: 50%;
+    background-image: url("https://images.unsplash.com/photo-1634175735590-b2ed7b02d143?q=80&w=2920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+.midInfOne{
+    padding: 4vh 0;
+   display: flex;
+}
+.Elon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+}
+.elonimg{
+    width: 70%;
+    height: 90%;
+    background-image: url("https://media.wired.com/photos/650399af65d83ff288720473/master/w_2240,c_limit/If-Elon-Musk-Had-Been-a-Happy-Child,-Would-He-Still-Be-Launching-Rockets--Business-Redux-h_16082330.jpg");
+    background-size: cover;
+    background-position: bottom;
+    padding: 10%;
+}
+.content{
+    font-family: "Space Grotesk", sans-serif;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.bottomInfo{
+    font-family: "Space Grotesk", sans-serif;
+    background-color: black;
+    height: 40vh;
+    display: flex;
+}
+.contentTwo{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60vw;
+    color: white;
+}
+.imgtwo{
+    background-image: url("https://images.unsplash.com/photo-1711919600878-b5d9e77d3357?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    width: 40vw;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
