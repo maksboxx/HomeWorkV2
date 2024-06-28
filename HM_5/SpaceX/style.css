@@ -311,6 +311,11 @@ section h4{
     background-size: contain;
     background-position: top;
 }
+/*----------------------------LOCATION-----------------*/
+.locationLogo{
+    width: 100vw;
+    height: 15vh;
+}
 
 
 
