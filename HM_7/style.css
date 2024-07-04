@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topSection{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/bgTopSection.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centreBlock{
+    width: 1058.4px;
+    height: 392.8px;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.contentTop{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    font-family: "KoHo", sans-serif;
+}
+.contentTop h2{
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 400;
+}
+.contentTop p{
+    color: #000;
+    font-size: 25px;
+    font-weight: 400;
+}
+.contentTop button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-size: 30px;
+    font-weight: 400;
+}
+.middleSection{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/bgSecond.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+.middleSection iframe{
+    width: 949px;
+    height: 52vh;
+}
+.middleSection p{
+    width: 949px;
+    height: 183px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: 400;
+}
+.downSection{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/bgSecond.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.block img{
+    margin-top: 25px;
+}
+.block{
+    width: 30vw;
+   /* height: 68.7vh;*/
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+}
+.block h4{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 32px 0 24px 0;
+}
+.block button{
+    width: 409px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+    color: #6B6666;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.discription{
+    margin-bottom: 62px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
