@@ -107,6 +107,9 @@
     line-height: normal;
     margin: 32px 0 24px 0;
 }
+.middleSection p{
+    font-family: "KoHo", sans-serif;
+}
 .block button{
     width: 409px;
     height: 76px;
