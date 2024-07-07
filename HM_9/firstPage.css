@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Quicksand&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10%;
+    background-color: #3D898A;
+    display: flex;
+    justify-content: center;
+    font-family: "Comfortaa", sans-serif;
+}
+
+.loginMenu {
+    width: 45vw;
+    height: 60vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.headerLogin {
+    background-color: #EAF3F3;
+    height: 20%;
+    border-radius: 10px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.mainLogin {
+    margin-top: 20px;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logpass {
+    width: 400px;
+    height: 50px;
+}
+
+.submitBlock {
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit {
+    font-weight: 300;
+    padding: 7px 40px;
+    background-color: #ddefef;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
