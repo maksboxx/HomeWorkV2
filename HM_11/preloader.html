@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preloader</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: lightslategrey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .preloader{
+            border: 3px solid lightblue;
+            border-radius: 30px;
+            width: 200px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            padding: 0 5px;
+            box-shadow: 0 0 67px 0 rgba(37,107,107,0.75);
+        }
+        .loader{
+            height: 35px;
+            width: 35px;
+            background-color: lightcoral;
+            border-radius: 30px;
+            animation: loader 2s ease-in-out infinite alternate;
+        }
+        @keyframes loader {
+            from{
+                transform: translateX(0px);
+            }
+            to{
+                transform: translateX(150px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader"></div>
+
+    </div>
+</body>
+</html>
