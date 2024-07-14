@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+table{
+    margin: 50px auto;
+    width: 70%;
+    font-size: 20px;
+
+}
+
+tbody tr:first-child{
+    color: white;
+    background-color: #2aa879;
+    font-weight: 600;
+    font-size: 23px;
+    font-family: "Fjalla One", sans-serif;
+}
+td{
+    padding: 20px;
+    border-right: 1px solid lightseagreen ;
+}
+tr:first-child>td{
+    border-right: none ;
+}
+td:last-child{
+    border-right: none ;
+
+}
+tbody tr:nth-child(even){
+    background-color: #E2EFEB;
+}
+tbody tr:nth-child(n+2):hover{
+    background-color: #88f6d1;
+}
+
