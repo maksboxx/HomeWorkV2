@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+table {
+    margin: 50px auto;
+    width: 600px;
+    border-spacing: 10px;
+    border: 1px solid black;
+}
+thead tr th{
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 10px;
+}
+tbody tr td{
+    font-size: 30px;
+}
+td{
+    border-right: 2px solid black;
+    border-spacing: 0;
+    padding: 20px;
+}
+td:last-child{
+    border-right: none;
+}
+tbody tr td:first-child{
+    text-align: center;
+}
+tbody tr td:last-child{
+    width: 200px;
+}
+tr:hover{
+    background-color: #f4f3f3;
+}
