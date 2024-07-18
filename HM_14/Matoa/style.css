@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Taviraj", serif;
+}
+body{
+    margin: 42px 165px 151px 165px;
+    background: #F7F6F4;
+}
+header{
+    display: flex;
+    gap: 186px;
+}
+header a img{
+    width: 178px;
+    height: 22px;
+}
+header>ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+header>ul>li{
+    position: relative;
+}
+header>ul>li>a{
+    text-decoration: none;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+.drop{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 23px;
+    padding: 15px 41px 23px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    background: rgba(255, 255, 255, 0.70);
+}
+.drop li a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+header>ul>li:hover .drop{
+    display: block;
+}
+/*-------------Top Section----------*/
+.top{
+    display: flex;
+    margin-top: 90px;
+    width: 1110px;
+    height: 505px;
+    background: #F1DDC9;
+}
+.top img{
+   padding:14px 56px 0 0 ;
+}
+
+.top div h2{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+    padding: 65px 0 32px 0;
+}
+.top div p{
+    width: 529px;
+    color: #333;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding-bottom: 80px;
+}
+.top div button{
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    color: #FFF;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    border: none;
+}
+/*-----------Middle section---------*/
+.middle h4{
+    padding: 79px 0 129px 0;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+.clock{
+    display: flex;
+    gap: 30px;
+}
+.clockBlock{
+    display: flex;
+    position: relative;
+    width: 255px;
+    height: 278px;
+    background: #FFF;
+    padding: 0 0 33px 24px;
+    align-items: flex-end;
+}
+.clockBlock span{
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+}
+.clockBlock img{
+    position: absolute;
+    top: -40px;
+}
+/*---------------Bottom section------------*/
+.bottom h4{
+    padding-top: 132px;
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+.bottom>div{
+    display: flex;
+}
+.bottominfo span{
+    color: #777;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.bottominfo p{
+    color: #333;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+}
+.bottominfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
