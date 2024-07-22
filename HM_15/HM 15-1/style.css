@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.a{
+    width: 100vw;
+    height: 20vh;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bc{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+.b{
+    width: 70%;
+    height: 100%;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c{
+    width: 30%;
+    height: 100%;
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

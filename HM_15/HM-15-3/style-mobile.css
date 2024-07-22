@@ -1,0 +1,24 @@
+@media screen and (max-width: 480px){
+nav ul{
+    flex-direction: column;
+    gap: 10px;
+}
+    li{
+        display: block;
+    }
+    li a{
+        display: block;
+        width: 100%;
+    }
+    .article{
+        height: 100%;
+    }
+    .article div{
+        display: block;
+        width: 100%;
+    }
+    .footer{
+        height: 10vh;
+        padding: 5px;
+    }
+}

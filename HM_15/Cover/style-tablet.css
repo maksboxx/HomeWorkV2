@@ -1,0 +1,24 @@
+@media screen and (min-width: 565px) and  (max-width: 1280px){
+h1{
+    font-size: 32px;
+}
+    main{
+        background-size: cover;
+        background-position: center;
+    }
+    main>p:first-of-type {
+        font-size: 18px;
+    }
+    button{
+        width: 131px;
+        display: flex;
+        height: 64px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    .baton{
+
+        gap: 32px;
+    }
+}

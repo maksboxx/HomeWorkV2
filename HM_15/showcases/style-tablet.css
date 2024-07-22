@@ -1,0 +1,11 @@
+@media screen and (min-width: 760px) and  (max-width: 1280px){
+    img{
+        width: 100%;
+        border-radius: 10px;
+
+    }
+    .catalog div{
+        height: 30vh;
+        gap: 15px;
+    }
+}

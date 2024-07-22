@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px){
+.bc{
+    flex-direction: column;
+}
+    .b{
+        width: 100%;
+    }
+    .c{
+        height: 20%;
+        width: 100%;
+    }
+}

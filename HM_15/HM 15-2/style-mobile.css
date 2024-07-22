@@ -1,0 +1,27 @@
+@media screen and (max-width: 480px){
+.bcdef{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+    .a{
+        height: 20vh;
+    }
+    .b{
+        width: 100vw;
+    }
+    .dcde{
+        width: 100%;
+    }
+    .cde{
+        width: 100vw;
+    }
+    .c, .d, .e{
+        width: 33.3vw;
+        height: 100%;
+    }
+    .f{
+        width: 100%;
+        height: 20vh;
+    }
+}
