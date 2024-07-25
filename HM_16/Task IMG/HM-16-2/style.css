@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header header header"
+        "section section section aside"
+        "nav nav nav aside"
+}
+
+header {
+    grid-area: header;
+}
+
+section {
+    grid-area: section;
+}
+
+aside {
+    grid-area: aside;
+}
+
+nav {
+    grid-area: nav;
+    display: flex;
+}
+nav div{
+    height: 100%;
+    width: 33.33%;
+    border: 1px solid red;
+}
+
+header, section, aside {
+    border: 1px solid red;
+}

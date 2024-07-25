@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    'header header'
+    'section aside'
+;
+}
+
+
+header{
+    grid-area: header;
+}
+section{
+    grid-area: section;
+}
+aside{
+    grid-area: aside;
+}
+header,section,aside{
+    border: 1px solid darkblue;
+}
